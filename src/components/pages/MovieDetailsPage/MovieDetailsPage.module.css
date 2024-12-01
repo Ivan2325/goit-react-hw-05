@@ -1,0 +1,58 @@
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  .img {
+    object-fit: contain;
+    width: 700px;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-bottom: 15px;
+  }
+  
+  .page_accent {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  
+  .page {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+  .link_btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: transparent;
+    padding: 4px 8px;
+    border-radius: 8px;
+    color: lightcoral;
+    border: 2px solid white;
+    outline: none;
+    max-width: 110px;
+    transition: color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
+      border 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    &:hover,
+    &:focus {
+      color: blueviolet;
+      border: 2px solid blueviolet;
+    }
+  }
+  
+  .link_btn_box {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+  }

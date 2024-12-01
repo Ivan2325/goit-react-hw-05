@@ -1,0 +1,63 @@
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .input {
+    background-color: transparent;
+    padding: 5px 10px;
+    border-radius: 8px;
+    border: 2px solid white;
+    outline: none;
+    transition: border 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    width: 235px;
+    &:hover,
+    &:focus {
+      border: 2px solid blueviolet;
+    }
+    &::placeholder {
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      color: lightcoral;
+    }
+  }
+  
+  .btn {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: transparent;
+    padding: 4px 8px;
+    border-radius: 8px;
+    color: lightcoral;
+    border: 2px solid white;
+    outline: none;
+    transition: color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
+      border 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    &:hover,
+    &:focus {
+      color: blueviolet;
+      border: 2px solid blueviolet;
+    }
+  }
+  
+  .page {
+    order: 1;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: lightcoral;
+  }
+  
+  .page_accent {
+    color: blueviolet;
+  }
+  
+  .bottom_wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+  }
