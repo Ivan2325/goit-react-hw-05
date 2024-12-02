@@ -16,11 +16,11 @@
     width: 235px;
     &:hover,
     &:focus {
-      border: 2px solid blueviolet;
+      border: 2px solid lightseagreen;
     }
     &::placeholder {
       font-family: Verdana, Geneva, Tahoma, sans-serif;
-      color: lightcoral;
+      color: lightseagreen;
     }
   }
   
@@ -33,26 +33,26 @@
     background-color: transparent;
     padding: 4px 8px;
     border-radius: 8px;
-    color: lightcoral;
+    color: lightseagreen;
     border: 2px solid white;
     outline: none;
     transition: color 0.5s cubic-bezier(0.075, 0.82, 0.165, 1),
       border 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     &:hover,
     &:focus {
-      color: blueviolet;
-      border: 2px solid blueviolet;
+      color:lightseagreen;
+      border: 2px solid lightseagreen;
     }
   }
   
   .page {
     order: 1;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: lightcoral;
+    color: lightseagreen;
   }
   
   .page_accent {
-    color: blueviolet;
+    color: lightseagreen;
   }
   
   .bottom_wrapper {

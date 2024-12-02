@@ -7,7 +7,7 @@
     background-color: transparent;
     padding: 4px 8px;
     border-radius: 8px;
-    color: lightcoral;
+    color: lightseagreen;
     border: 2px solid white;
     outline: none;
     max-width: 110px;
@@ -16,7 +16,7 @@
       border 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
     &:hover,
     &:focus {
-      color: blueviolet;
-      border: 2px solid blueviolet;
+      color: lightseagreen;
+      border: 2px solid lightseagreen;
     }
   }

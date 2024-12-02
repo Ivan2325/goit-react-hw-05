@@ -13,8 +13,8 @@
     text-decoration: none;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
-    color: lightcoral;
-    border: 2px solid lightcoral;
+    color:  lightseagreen;
+    border: 2px solid lightseagreen;
     border-radius: 8px;
     padding: 5px 10px;
     display: flex;
@@ -27,13 +27,13 @@
     &:hover,
     &:focus {
       color: white;
-      background-color: lightcoral;
+      background-color:  lightseagreen;
       border: 2px solid transparent;
       outline: none;
     }
   }
   
   .active {
-    color: blueviolet;
-    border: 2px solid blueviolet;
+    color: lightseagreen;
+    border: 2px solid lightseagreen;
   }

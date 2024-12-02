@@ -1,13 +1,13 @@
 import { Field, Formik, Form } from "formik";
 import { useEffect, useState } from "react";
-import { fetchMovieSearch } from "../../assets/api";
-import MovieList from "../../components/MovieList/MovieList";
+import { fetchMovieSearch } from "../../../assets/api";
+import MovieList from "../../MovieList/MovieList";
 import { useSearchParams } from "react-router-dom";
 import s from "./MoviesPage.module.css";
 import { MdContentPasteSearch } from "react-icons/md";
 import { RiArrowGoBackFill } from "react-icons/ri";
 import { GrNext } from "react-icons/gr";
-import Loader from "../../components/Loader/Loader";
+import Loader from "../../Loader/Loader";
 
 const initialValues = { query: "" };
 

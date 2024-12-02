@@ -1,7 +1,7 @@
 import { Link, Outlet, useLocation, useParams } from "react-router-dom";
-import { fetchMovieById } from "../../assets/api";
+import { fetchMovieById } from "../../../assets/api";
 import { useEffect, useState } from "react";
-import BackLink from "../../components/BackLink/BackLink";
+import BackLink from "../../BackLink/BackLink";
 import s from "./MovieDetailsPage.module.css";
 import { RiTeamLine } from "react-icons/ri";
 import { MdOutlineReviews } from "react-icons/md";

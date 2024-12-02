@@ -3,7 +3,6 @@ import { Route, Routes } from "react-router-dom";
 import Navigation from "./components/Navigation/Navigation";
 import "./App.css";
 import { MagnifyingGlass } from "react-loader-spinner";
-import Footer from "./components/Footer/Footer";
 
 const HomePage = lazy(() => import("../src/components/pages/HomePage/HomePage"));
 const MoviesPage = lazy(() => import("../src/components/pages/MoviesPage/MoviesPage"));
@@ -35,7 +34,6 @@ const App = () => {
           </Routes>
         </Suspense>
       </div>
-      <Footer />
     </div>
   );
 };
