@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
-import { fetchMovies } from "../../../assets/api";
-import MovieList from "../../MovieList/MovieList";
+import { fetchMovies } from "../../assets/api";
+import MovieList from "../../components/MovieList/MovieList";
 import s from "./HomePage.module.css";
 import { MdMovieFilter } from "react-icons/md";
 
