@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import BackLink from "../../components/BackLink/BackLink";
+import BackLink from "../../BackLink/BackLink";
 import s from "./NotFoundPage.module.css";
 
 const NotFoundPage = () => {
